@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'lane_-_upperregular';
+    src: url('LANEUP__-webfont.eot');
+    src: url('LANEUP__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LANEUP__-webfont.woff') format('woff'),
+         url('LANEUP__-webfont.ttf') format('truetype'),
+         url('LANEUP__-webfont.svg#lane_-_upperregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'porter_sans_blockblock';
+    src: url('porter-sans-inline-block-webfont.eot');
+    src: url('porter-sans-inline-block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('porter-sans-inline-block-webfont.woff') format('woff'),
+         url('porter-sans-inline-block-webfont.ttf') format('truetype'),
+         url('porter-sans-inline-block-webfont.svg#porter_sans_blockblock') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*###############################################*/
+/*###############################################*/
+/* Extra small devices (phones, less than 768px) */
+/*###############################################*/
+/*###############################################*/
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+h1{
+	font-family: 'porter_sans_blockblock';
+	text-align: center;
+	color: #75adaa;
+	font-size: 3em;
+}
+
+h3{
+	font-family: 'porter_sans_blockblock';
+	text-align: center;
+	color: #75adaa;
+	font-size: 1.5em;
+}
+
+section{
+	border: solid 2px #ffb2a0;
+	margin : 10px 5px 5px 5px;
+	padding: 5px 10px;
+	font-family: 'lane_-_upperregular';
+	justify-content: center;
+	background-color: #ffdfd5;
+	color: #ffb2a0;
+	font-weight: bold;
+	font-size: 1.250em;
+	width: auto;
+	text-transform: uppercase;
+}
+
+span{
+	text-transform: lowercase;
+
+
+
+}
+
+footer{
+	font-family: 'lane_-_upperregular';
+	color: #ffb2a0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+
+/*###############################################*/
+/*###############################################*/
+/* Small devices (tablets, 768px and up) */
+/*###############################################*/
+/*###############################################*/
+@media (min-width: 768px) {
+
+
+
+
+}
+
+
+/*###############################################*/
+/*###############################################*/
+/* Medium devices (desktops, 980px and up) */
+/*###############################################*/
+/*###############################################*/
+@media (min-width: 980px) {
+
+
+
+}
+
+/*###############################################*/
+/*###############################################*/
+/* Large devices (large desktops, 1200px and up) */
+/*###############################################*/
+/*###############################################*/
+@media (min-width: 1200px) {
+
+
+
+}
